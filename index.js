@@ -2,7 +2,6 @@ window.addEventListener('load', function () {
   showSlides(slideIndex);
   window.onload = setInterval(show, 50, "introduction");
   this.setTimeout(() => {setInterval(show, 50, "description")}, 200)
-
 })
 let itWorks = "If you see this js works! Greatest Regards, Eren";
 console.log(itWorks)
@@ -36,8 +35,6 @@ function showSlides(n) {
   bars[slideIndex-1].className += " active";
 } 
 
-
-        
         
 function show(x) {
     let opacity = 0;
@@ -52,3 +49,4 @@ function show(x) {
         clearInterval(intervalID);
     }
 }
+

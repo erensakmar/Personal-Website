@@ -69,3 +69,36 @@ a:link, a:visited {
   text-align: center;
   text-decoration: none;
 }
+
+#next {
+  width: 0; 
+  height: 0; 
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-left: 25px solid #b3dddede;
+  cursor: pointer;
+}
+#previous{
+  width: 0; 
+  height: 0; 
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-right: 25px solid #b3dddede;
+  cursor: pointer;
+}
+#next:hover {
+  width: 0; 
+  height: 0; 
+  border-top: 35px solid transparent;
+  border-bottom: 35px solid transparent;
+  border-left: 35px solid #b3dddede;
+  cursor: pointer;
+}
+#previous:hover {
+  width: 0; 
+  height: 0; 
+  border-top: 35px solid transparent;
+  border-bottom: 35px solid transparent;
+  border-right: 35px solid #b3dddede;
+  cursor: pointer;
+}
