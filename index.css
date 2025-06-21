@@ -17,8 +17,6 @@ ul {
     flex-direction: row;
   }
   
-
-  
   li span {
     display: block;
     color: black;
@@ -51,13 +49,10 @@ p{
   padding-top: 25vh;
   padding-left: 7%;
 }
-#section-1-flexbox {
+#section-flexbox {
     display:flex; 
     flex-direction: row;
-    justify-content: space-around;
-}
-.section:nth-child(2) {
-    display:flex; 
+    justify-content: space-between;
 }
 
 #profile-picture {
@@ -77,6 +72,7 @@ a:link, a:visited {
   border-bottom: 25px solid transparent;
   border-left: 25px solid #b3dddede;
   cursor: pointer;
+  z-index: 2;
 }
 #previous{
   width: 0; 
@@ -101,4 +97,10 @@ a:link, a:visited {
   border-bottom: 35px solid transparent;
   border-right: 35px solid #b3dddede;
   cursor: pointer;
+}
+.button-seperator{
+  width: 100px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
