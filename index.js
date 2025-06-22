@@ -49,4 +49,3 @@ function show(x) {
         clearInterval(intervalID);
     }
 }
-
