@@ -114,3 +114,9 @@ a:link, a:visited {
 #partofduck {
   margin-top: 5%;
 }
+@media (max-width: 1250px) {
+  ul {
+    justify-content: center;
+  }
+}
+
