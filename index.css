@@ -117,11 +117,24 @@ a:link, a:visited {
 @media (max-width: 1250px) {
   ul {
     justify-content: center;
+    
   }
   
 }
 
 @media (max-width: 750px) {
+  ul {
+    justify-content: space-around;
+  }
+  #top-bar {
+    display: none;
+  }
+  #section-flexbox{
+    flex-wrap: wrap;
+    width: 1000px;
+  }
+
+@media (max-width: 450px) {
   ul {
     justify-content: space-around;
   }
