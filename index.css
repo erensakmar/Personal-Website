@@ -115,9 +115,9 @@ a:link, a:visited {
   margin-top: 5%;
 }
 @media (max-width: 1250px) {
+  
   ul {
     justify-content: center;
-    
   }
   
 }
@@ -133,10 +133,17 @@ a:link, a:visited {
     flex-wrap: wrap;
     width: 1000px;
   }
+  .next .previous {
+    display: none;
+  }
+  p {
+    font-size: 14px;
+  }
 
 @media (max-width: 450px) {
   ul {
     justify-content: space-around;
   }
+
   
 }
