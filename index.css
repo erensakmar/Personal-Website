@@ -119,15 +119,11 @@ a:link, a:visited {
   ul {
     justify-content: center;
   }
-  
 }
 
 @media (max-width: 750px) {
   ul {
     justify-content: space-around;
-  }
-  #top-bar {
-    display: none;
   }
   #section-flexbox{
     flex-wrap: wrap;
@@ -139,11 +135,9 @@ a:link, a:visited {
   p {
     font-size: 14px;
   }
-
+}
 @media (max-width: 450px) {
   ul {
     justify-content: space-around;
   }
-
-  
 }
