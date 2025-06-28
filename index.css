@@ -115,23 +115,22 @@ a:link, a:visited {
   margin-top: 5%;
 }
 @media (max-width: 1250px) {
+p{
+    font-size: 20px;
+}
 
-
-.previous {
-    display: none;
-  }
-  .next {
-    display: none;
-  }
   ul {
     justify-content: center;    
   }
 }
 
 @media (max-width: 750px) {
+.button-seperator{
+  display: none;
+}
   #profile-div {
   order: -1;
-  width:150px;
+  width:250px;
 }
   ul {
     justify-content: space-around;
@@ -140,7 +139,7 @@ a:link, a:visited {
     flex-wrap: wrap;
   }
   p {
-    font-size: 14px;
+    font-size: 20px;
   }
 }
 @media (max-width: 450px) {
