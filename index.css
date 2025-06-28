@@ -56,7 +56,7 @@ p{
 }
 
 #profile-picture {
-  width:150px;
+  width:120px;
 }
 
 a:link, a:visited {
@@ -115,22 +115,29 @@ a:link, a:visited {
   margin-top: 5%;
 }
 @media (max-width: 1250px) {
-  
+
+
+.previous {
+    display: none;
+  }
+  .next {
+    display: none;
+  }
   ul {
-    justify-content: center;
+    justify-content: center;    
   }
 }
 
 @media (max-width: 750px) {
+  #profile-div {
+  order: -1;
+  width:150px;
+}
   ul {
     justify-content: space-around;
   }
   #section-flexbox{
     flex-wrap: wrap;
-    width: 1000px;
-  }
-  .next .previous {
-    display: none;
   }
   p {
     font-size: 14px;
