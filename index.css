@@ -107,6 +107,7 @@ a:link, a:visited {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 200px;
 }
 #duck {
   display: block;
@@ -121,7 +122,9 @@ a:link, a:visited {
 @media (max-width: 1250px) {
 #profile-div {
   order: -1;
-  width:250px;
+  flex-grow: 4;
+  text-align: center;
+  height: 150px;
 }
 
 p{
