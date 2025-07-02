@@ -49,3 +49,6 @@ function show(x) {
         clearInterval(intervalID);
     }
 }
+function differentScreen(slides) {
+    slides.style.display = "block";
+}

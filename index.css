@@ -130,9 +130,6 @@ a:link, a:visited {
 p{
     font-size: 20px;
 }
-ul {
-    justify-content: center;    
-  }
 }
 
 @media (max-width: 750px) {
@@ -143,9 +140,6 @@ ul {
   order: -1;
   width:250px;
 }
-  ul {
-    justify-content: space-around;
-  }
   #section-flexbox{
     flex-wrap: wrap;
   }
@@ -153,8 +147,11 @@ ul {
     font-size: 20px;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 550px) {
   ul {
     justify-content: space-around;
+  }
+li span {
+    padding-right: 200px;
   }
 }
