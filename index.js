@@ -2,6 +2,7 @@ window.addEventListener('load', function () {
   showSlides(slideIndex);
   window.onload = setInterval(show, 50, "introduction");
   this.setTimeout(() => {setInterval(show, 50, "description")}, 200)
+  test()
 })
 let itWorks = "If you see this js works! Greatest Regards, Eren";
 console.log(itWorks)
@@ -48,4 +49,9 @@ function show(x) {
     else {
         clearInterval(intervalID);
     }
+}
+
+function test() {
+ const elem = document.getElementById('bottom-bar') 
+ console.log("element has "+ elem.clientWidth + "px width")  
 }
