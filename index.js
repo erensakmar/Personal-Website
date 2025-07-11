@@ -1,8 +1,8 @@
 window.addEventListener('load', function () {
+  prerequisities()
   showSlides(slideIndex);
   window.onload = setInterval(show, 50, "introduction");
   this.setTimeout(() => {setInterval(show, 50, "description")}, 200)
-  test()
 })
 let itWorks = "If you see this js works! Greatest Regards, Eren";
 console.log(itWorks)
@@ -51,7 +51,12 @@ function show(x) {
     }
 }
 
-function test() {
+function prerequisities() {
  const elem = document.getElementById('bottom-bar') 
  console.log("element has "+ elem.clientWidth + "px width")  
+ if (elem.clientWidth < 400) {
+ console.log("it works")
+ 
+ }
+
 }
