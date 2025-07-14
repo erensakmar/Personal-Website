@@ -47,7 +47,7 @@ p{
   padding-left: 7%;
 }
 .section:nth-child(1) {
-  height: 60vh;
+  height: 80vh;
 }
 .section:nth-child(2) {
   height: 120vh;
@@ -75,34 +75,34 @@ a:link, a:visited {
 #next {
   width: 0; 
   height: 0; 
-  border-top: 25px solid transparent;
-  border-bottom: 25px solid transparent;
-  border-left: 25px solid #b3dddede;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-left: 12px solid #b3dddede;
   cursor: pointer;
 }
 #previous{
   width: 0; 
   height: 0; 
-  border-top: 25px solid transparent;
-  border-bottom: 25px solid transparent;
-  border-right: 25px solid #b3dddede;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-right: 12px solid #b3dddede;
   cursor: pointer;
   margin-top: 60px;
 }
 #next:hover {
   width: 0; 
   height: 0; 
-  border-top: 35px solid transparent;
-  border-bottom: 35px solid transparent;
-  border-left: 35px solid #b3dddede;
+  border-top: 14px solid transparent;
+  border-bottom: 14px solid transparent;
+  border-left: 14px solid #b3dddede;
   cursor: pointer;
 }
 #previous:hover {
   width: 0; 
   height: 0; 
-  border-top: 35px solid transparent;
-  border-bottom: 35px solid transparent;
-  border-right: 35px solid #b3dddede;
+  border-top: 14px solid transparent;
+  border-bottom: 14px solid transparent;
+  border-right: 14px solid #b3dddede;
   cursor: pointer;
 }
 .button-seperator{

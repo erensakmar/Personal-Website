@@ -53,7 +53,5 @@ function prerequisities() {
  console.log("element has "+ elem.clientWidth + "px width")  
  if (elem.clientWidth < 400) {
  console.log("it works")
- 
  }
-
 }
