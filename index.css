@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    overflow-y: hidden; 
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -15,7 +14,7 @@ ul {
     background-color: #B3DEC1;
     display: flex;
     flex-direction: row;
-  }
+}
 
   li span {
     display: block;
@@ -23,11 +22,10 @@ ul {
     padding: 16px;
     text-decoration: none;
     cursor: pointer;
-  }
-  
-  li span:hover {
+}
+li span:hover {
     background-color: #F7F9F7;
-  }
+}
 #bottom-bar{
     background-color: #F7F9F7;
 }
@@ -43,11 +41,16 @@ p{
     margin-left: 30px;
 }
   /* navbar*/
-.section {
+.section{
   width: 85%;
-  height: 100vh;
-  padding-top: 15vh;
+  padding-top: 7vh;
   padding-left: 7%;
+}
+.section:nth-child(1) {
+  height: 60vh;
+}
+.section:nth-child(2) {
+  height: 120vh;
 }
 #section-flexbox {
     display:flex; 
@@ -121,6 +124,9 @@ a:link, a:visited {
   margin-left: 6%;
 }
 @media (max-width: 1250px) {
+.section {
+  height: 120vh;
+}
 #profile-div {
   order: -1;
   flex-grow: 4;
