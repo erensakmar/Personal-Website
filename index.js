@@ -2,7 +2,7 @@ window.addEventListener('load', function () {
   prerequisities()
   showSlides(slideIndex);
   window.onload = setInterval(show, 50, "introduction");
-  this.setTimeout(() => {setInterval(show, 50, "description")}, 200)
+  this.setTimeout(() => {setInterval(show, 60, "description")}, 200)
 })
 let itWorks = "If you see this js works! Greatest Regards, Eren";
 console.log(itWorks)
